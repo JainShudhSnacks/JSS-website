@@ -16,3 +16,12 @@ Matching `.webp` files are delivery copies compressed for browser performance; t
 Saved originals in the project's `public/images/` directory are portable with the source ZIP. The generated-image cache originals also reside in `/Users/admin/.codex/generated_images/01a11ffe-cc98-7102-aff2-5e31befa3df2/`.
 
 Generated imagery should be replaced or supplemented with owner-supplied photos before relying on it as an exact depiction of a particular product. Real product photos can be uploaded through the admin panel. The original user logo remains at `/Users/admin/Downloads/Feelance/JSS/Logo jss.png`.
+
+
+## Individual product illustrations
+
+All 52 supplied products have separate square illustrations in `public/images/products/<product-id>.webp`, generated with the built-in image generation tool. Full prompts are saved in `public/images/products/prompts.json`. The consistent direction uses warm ivory ceramic bowls or plates, a cream background, soft daylight and realistic food textures, with no invented packaging, labels or certifications. These are general visual interpretations of the named foods; they do not verify a recipe, niyam suitability or actual product appearance.
+
+Original generated PNGs are preserved in the neighbouring `artwork/products/originals/` folder outside the deployable website. Browser copies are 720 px WebP images. Product-specific defaults work for both previously stored catalogue records and new deployments. Any image saved by the owner takes priority, so adding illustrations does not replace uploaded photos or modify the database. Category artwork remains for category displays and new items without an uploaded image.
+
+Visual naming references for the less familiar foods were checked against [420 Namkeen's moong mogar range](https://www.snacksandnamkeen.com/moong-daal-namkeen.html) and [Muskans Mangodi](https://www.mangodi.com/). These references informed general shape only; no photographs or recipes from those businesses were copied.

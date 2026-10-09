@@ -22,11 +22,11 @@ Local catalogue edits are stored in `.local/jss.sqlite`; uploads are stored in `
 
 ## Included
 
-- Responsive home, searchable catalogue, six categories and individual product pages.
-- Category switching and snack recommendations use the current published catalogue, including owner edits. Product previews show the actual pack price and link directly to the product page or a phone call.
-- 52 products transcribed from the supplied list, with known prices and units.
+- Responsive home, searchable catalogue, six categories and product previews within the page.
+- Category switching and snack recommendations use the current published catalogue, including owner edits. Clicking a product image or name opens its quick preview with pack prices and a call button. Separate product pages are disabled; old product URLs redirect to the catalogue.
+- 52 products transcribed from the supplied list, with known prices and units. Each has its own generated illustration, labelled on the card and quick preview. Owner-uploaded photos take priority over these defaults; existing catalogue edits are preserved.
 - A bilingual welcome popup asks visitors to choose English or Hindi; their choice is remembered and can be changed from the header.
-- Call-to-order links throughout the catalogue, product pages and contact page.
+- Call-to-order links throughout the catalogue, product previews and contact page.
 - Information about Indore pickup, Porter delivery and nationwide shipping for namkeen and biscuits.
 - Written shuddh practices, a factual 2022 business introduction and customer policies.
 - Owner login, product creation/editing, image upload, multiple packs, draft/published/hidden/archived states, availability and featured products.
@@ -67,7 +67,7 @@ Local edits and uploads do not automatically migrate to Supabase. Enter them in 
 
 ## Content to complete
 
-Confirm the remaining pack quantities, full ingredients, dairy status, item-specific shelf life and storage instructions with the business. The catalogue labels missing details and invites customers to discuss them by phone. Add real product photos, pickup hours, genuine registration numbers and the approved product-issue policy when available. Generated illustrations and unknown certification details are not represented as verified business evidence.
+Ingredient lists will be added later. Keep them empty in the meantime; the catalogue invites customers to discuss their requirements by phone. Owner-confirmed ingredient lists will appear within the quick preview when entered and marked confirmed in the admin panel. Confirm the remaining pack quantities, dairy status, item-specific shelf life and storage instructions with the business. Add real product photos, pickup hours, genuine registration numbers and the approved product-issue policy when available. Generated illustrations and unknown certification details are not represented as verified business evidence.
 
 ## Validation
 

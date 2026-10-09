@@ -133,8 +133,13 @@
 .quick-peek:hover, .quick-peek:focus-visible { width: 120px; background: var(--ink); color: var(--paper); }
 .quick-peek:hover > span, .quick-peek:focus-visible > span { display: block; }
 .storefront-shell .product-card-copy { padding: 17px 2px 0; }
+.product-category-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.product-art-label { font-size: 9px; color: #526557; white-space: nowrap; }
 .storefront-shell .product-category { font-size: 9px; text-transform: uppercase; letter-spacing: .07em; }
 .storefront-shell .product-card h3 { font-size: 21px; font-weight: 600; letter-spacing: -.025em; line-height: 1.25; }
+.storefront-shell .product-art-link { display: block; width: 100%; padding: 0; text-align: left; }
+.storefront-shell .product-name-trigger { display: block; padding: 0; text-align: left; }
+.storefront-shell .product-name-trigger:hover { color: var(--red); }
 .storefront-shell .product-name-secondary { font-size: 12px; margin-top: 6px; }
 .storefront-shell .product-card-bottom { margin-top: 17px; }
 .storefront-shell .price { font-size: 17px; font-weight: 600; }
@@ -408,7 +413,9 @@
   .storefront-shell .product-card .food-art { border-radius: 13px; }
   .storefront-shell .product-card-copy { padding-top: 14px; }
   .storefront-shell .product-card h3 { font-size: 18px; }
-  .storefront-shell .product-category { font-size: 8px; line-height: 1.5; letter-spacing: .045em; }
+  .product-category-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.product-art-label { font-size: 9px; color: #526557; white-space: nowrap; }
+.storefront-shell .product-category { font-size: 8px; line-height: 1.5; letter-spacing: .045em; }
   .storefront-shell .product-name-secondary { font-size: 11px; }
   .storefront-shell .product-card-bottom { gap: 4px; margin-top: 12px; align-items: flex-start; }
   .storefront-shell .price { font-size: 16px; }

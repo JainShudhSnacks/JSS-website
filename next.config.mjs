@@ -8,15 +8,14 @@ export default {
         source: `/${page}`,
         destination: `/?_jssPage=${page}`,
       })),
-      { source: '/product/:productId', destination: '/?_jssPage=product&_jssProduct=:productId' },
       { source: '/api/:endpoint+', destination: '/api' },
     ];
   },
   async redirects() {
-    return ['checkout', 'order'].map(page => ({
+    return [{ source: '/product/:legacyPath*', destination: '/shop', permanent: false }, ...['checkout', 'order'].map(page => ({
       source: `/${page}/:legacyPath*`,
       destination: '/contact',
       permanent: false,
-    }));
+    }))];
   },
 };

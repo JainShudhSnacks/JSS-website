@@ -1,0 +1,266 @@
+{
+  "mode": "built-in image generation",
+  "purpose": "Illustrative catalogue images; actual products and recipes may differ.",
+  "products": [
+    {
+      "id": "hand-sev",
+      "name": "Hand Sev",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: Hand Sev, a single shallow warm ivory ceramic bowl heaped with fine golden crispy Indian sev strands; only sev, not a mixed snack.\nStyle: polished realistic food illustration, appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon, no props.\nComposition: square 1:1, bowl centred at a 45-degree overhead camera angle, bowl occupies 75% of the frame, full bowl visible with generous clean margin. Soft natural light from upper left and soft shadow.\nConstraints: one product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark. This represents the named food generally, not a verified photo of the business recipe."
+    },
+    {
+      "id": "hand-papdi",
+      "name": "Hand Papdi",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of irregular hand-shaped golden fried papdi ribbons, wide thin folded and crinkled strips with bubbled surfaces.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "plain-papdi",
+      "name": "Plain Papdi",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of pale golden plain fried papdi, broad thin gently curved crisp ribbons, light delicate bubbled texture without visible coloured seasoning.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "sweet-mixture",
+      "name": "Sweet Mixture",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of a golden Indian sweet namkeen mixture, delicate sev, flat crispy flakes and a few golden savoury pieces, a subtle glossy golden finish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "spicy-mixture",
+      "name": "Spicy Mixture",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of Indian spicy namkeen mixture, golden sev and crisp flakes with a warm red-orange seasoning dust and assorted crunchy shapes.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "spicy-nukti",
+      "name": "Spicy Nukti",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl piled with tiny round crisp golden boondi/nukti balls, lightly red-orange seasoned, separate small pearls with irregular handmade texture.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "gathiya",
+      "name": "Gathiya",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of pale golden Indian gathiya, chunky short curved fried strands, softly ridged craggy porous texture; clearly thicker than sev.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "burhanpuri-gathiya",
+      "name": "Burhanpuri Gathiya",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of golden Burhanpuri-style gathiya namkeen, chunky bent uneven fried strips and short strands with an airy bubbled texture.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "mogar",
+      "name": "Mogar",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of crisp fried split moong dal namkeen, many small oval yellow-gold lentil halves with dry lightly glossy crisp texture, not sev.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "chana-dal",
+      "name": "Chana Dal",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of golden roasted/fried chana dal namkeen, small thick yellow split chickpea halves with crispy browned edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "chana-dal-dhaniya",
+      "name": "Chana Dal Dhaniya",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of golden chana dal namkeen, small split chickpea halves with subtle green-brown coriander seasoning flecks on the snack, no fresh garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "masoor",
+      "name": "Masoor",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of crisp masoor lentil namkeen, tiny flattened orange-gold round lentils with browned crisp edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "soya-sticks",
+      "name": "Soya Sticks",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of crunchy golden soya snack sticks, short straight cylindrical sticks with hollow or textured crisp ends, subtle toasted seasoning.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "pepper-banana-chips",
+      "name": "Black Pepper Banana Chips",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of thin round golden banana chips, delicate curled edges and clearly visible fine black pepper specks, crisp pale golden surfaces.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "chilli-banana-chips",
+      "name": "Red Chilli Banana Chips",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of thin round golden banana chips with red-orange chilli seasoning dust, natural faint banana slice centres and crisp edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "mint-banana-chips",
+      "name": "Mint Banana Chips",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of thin round yellow-gold banana chips with subtle tiny dried green mint seasoning flecks, no fresh mint leaves.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "tomato-banana-chips",
+      "name": "Tomato Banana Chips",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of thin crisp round banana chips coated in a warm reddish tomato-flavour seasoning dust; no tomatoes or fresh garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "sweet-banana-mixture",
+      "name": "Sweet Banana Mixture",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of golden sweet banana snack mixture, slender crisp banana slivers and small banana chip pieces, warm golden glossy surface; banana shapes dominate.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "spicy-banana-mixture",
+      "name": "Spicy Banana Mixture",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of spicy banana snack mixture, thin fried banana slivers and broken banana chips dusted with red-orange seasoning; no fresh garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "pepper-peanuts",
+      "name": "Black Pepper Peanuts",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of golden roasted peanuts with visible fine black pepper specks, some split peanut halves, naturally varied warm tan surfaces.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "chilli-peanuts",
+      "name": "Red Chilli Peanuts",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of peanuts coated in red-orange chilli seasoning, some split halves, crisp lightly textured surfaces.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "sendha-peanuts",
+      "name": "Sendha Salt Peanuts",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of plain golden roasted peanuts, some split peanut halves, very light tiny salt crystals and natural tan colour, no coloured seasoning.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "mangodi",
+      "name": "Mangodi Saloni",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of small golden savoury mangodi snack nuggets, uneven tiny fried lentil dumpling shapes with porous crispy surfaces and lightly toasted edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "atta-chakli",
+      "name": "Atta Chakli",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate of golden-brown atta chakli, crisp concentric spiral-shaped snacks with distinct tightly coiled ridged strands; neat overlapping arrangement.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "sweet-khurme",
+      "name": "Sweet Khurme",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of sweet khurme, short thick golden fried pastry sticks and irregular rectangular bites with a thin crystalline sugary coating.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "shakkar-para",
+      "name": "Shakkar Pare",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of small diamond-shaped golden shakkar pare, crisp fried sweet pastry bites with delicate sugar crystals and clean diamond edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "mini-samosa",
+      "name": "Mini Samosa",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding several small golden-brown triangular dry snack samosas, intact folded pastry triangles with bubbled crispy surfaces, no cut-open filling and no sauce.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "mini-kachori",
+      "name": "Mini Kachori",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding several small round golden-brown dry snack kachoris, rounded puffed crisp shells with flaky surface cracks, intact with no cut-open filling and no sauce.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "tasty-peanuts",
+      "name": "Tasty Peanuts",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A shallow ivory ceramic bowl of crunchy coated masala peanuts, irregular rounded golden-brown coated nuggets with a lightly rough crisp surface, a few split examples showing peanut inside.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "cashew-biscuits",
+      "name": "Cashew Biscuits",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate of round golden cashew biscuits, buttery biscuit texture with visible small cashew pieces embedded, one biscuit resting against others.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "sweet-atta-biscuits",
+      "name": "Sweet Atta Biscuits",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate of round golden-brown whole-wheat sweet biscuits, rustic fine grain texture, scalloped edges and small fork-pricked marks, no icing or garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "jeera-atta-biscuits",
+      "name": "Jeera Atta Biscuits",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate of round golden whole-wheat biscuits with clearly visible brown cumin seeds embedded, simple lightly scalloped edges and toasted surfaces.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "ajwain-atta-biscuits",
+      "name": "Ajwain Atta Biscuits",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate of lightly golden round whole-wheat biscuits with tiny ajwain seed flecks embedded, plain edges, crisp rustic texture; seeds much smaller than cumin.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "dry-fruit-biscuits",
+      "name": "Dry Fruit Biscuits",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate of golden dry-fruit biscuits, slightly thick round cookies with visible small chopped nut and dried-fruit pieces embedded, warm toasted edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "atta-toast",
+      "name": "Atta Toast",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding a neat overlapping fan of golden-brown whole-wheat toast rusks, thick rectangular baked slices, crisp porous crumb, darker toasted crust.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "cream-roll",
+      "name": "Cream Roll",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding three golden flaky pastry cream rolls, spiralled crisp pastry tubes with smooth pale cream visible at both ends, no icing or garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "pav",
+      "name": "Pav",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding six small joined Indian pav bread rolls, square soft buns baked together with lightly glossy golden-brown domed tops and pale fluffy sides.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "atta-bread",
+      "name": "Atta Bread",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding a small whole-wheat sandwich bread loaf and three neatly fanned slices, warm brown crust, soft tan porous crumb, no seeds added on top.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "pizza-base",
+      "name": "Pizza Base",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding two plain round untopped pizza bases, pale golden baked flat bread discs with lightly raised edges and small docking holes, no sauce, cheese or toppings.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "atta-cupcake",
+      "name": "Atta Cupcake",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding three plain whole-wheat cupcakes in unbranded cream paper liners, domed golden-brown tops, rustic baked texture, no frosting or fruit garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "moong-papad",
+      "name": "Moong Papad",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate with three overlapping thin round unroasted moong papad discs, pale ivory slightly translucent textured surfaces with sparse tiny dark flecks, delicate uneven edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "chana-papad",
+      "name": "Chana Papad",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate with three overlapping thin round unroasted chana papad discs, pale warm yellow cream colour and subtle grainy texture, delicate uneven edges.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "plain-khakhra",
+      "name": "Plain Khakhra",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding three overlapping large round plain khakhra discs, extremely thin toasted golden flat crisps with speckled brown toasted patches.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "jeeravan-khakhra",
+      "name": "Jeeravan Khakhra",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding three overlapping large round golden khakhra discs, very thin toasted crisps lightly dusted with orange-brown jeeravan seasoning, no fresh garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "ajwain-khakhra",
+      "name": "Ajwain Khakhra",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: An ivory ceramic plate holding three overlapping large round thin golden khakhra crisps, tiny embedded ajwain seed flecks and brown toasted patches.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with coarse pale pink-white sendha salt crystals, natural uneven translucent crystalline texture, no spoon.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "chilli",
+      "name": "Ground Chilli",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with finely ground vivid warm red chilli powder, gently conical mound, realistic dry fine powder texture, no whole chillies.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "coriander",
+      "name": "Ground Coriander",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with ground coriander powder, pale earthy warm tan green-brown fine powder, gently conical mound, no leaves or whole seeds.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "turmeric",
+      "name": "Ground Turmeric",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with finely ground bright golden-yellow turmeric powder, gently conical mound, dry rich fine powder texture, no roots or garnish.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "maida",
+      "name": "Maida",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with fine white maida flour, soft powdery texture and gently conical mound, no spoon or grain props.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "rava",
+      "name": "Rava",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with pale cream rava semolina, fine granular texture with individual tiny wheat granules clearly visible, no spoon.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    },
+    {
+      "id": "thuli",
+      "name": "Thuli",
+      "prompt": "Use case: product-mockup\nAsset type: square food catalogue illustration for Jain Shudh Snacks.\nSubject: A small shallow ivory ceramic bowl heaped with thuli broken wheat, coarse angular cracked wheat granules in golden beige and tan, visibly much coarser than semolina, no spoon.\nStyle: polished realistic food illustration with appetising fine texture, understated premium editorial food styling.\nBackdrop: seamless warm ivory cream surface #f6f0df, no horizon and no props.\nComposition: square 1:1, vessel centred at a 45-degree overhead camera angle, vessel occupies 75% of the frame, whole vessel visible with clean margin. Soft natural light from upper left and a soft natural shadow.\nConstraints: one named product only, no garnish, no labels, no text, no packaging, no people, no cutlery, no logo, no watermark, no unrelated ingredients. This is a general illustration, not a verified photo of the business recipe."
+    }
+  ]
+}

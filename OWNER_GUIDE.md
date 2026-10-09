@@ -9,7 +9,7 @@ Open `/admin`. Locally, choose **Open local owner preview**. On the hosted websi
 1. Choose **Products → Add product**, or use the pencil next to an existing item.
 2. In **Details**, enter English/Hindi names, category and descriptions. Upload a real JPG, PNG or WebP photo, up to 5 MB. Mark generated/sample artwork as illustrative.
 3. In **Packs & offers**, add the pack label, unit and price **for that whole pack**. For example, a 500 g pack priced at ₹150 should have label `500 g` and price `150`. Confirm the pack information when approved by the business.
-4. In **Ingredients & care**, enter the confirmed full ingredients, dairy status, shelf life and storage instructions. Leave unknown details unconfirmed; customers can call to discuss them.
+4. In **Ingredients & care**, enter the confirmed full ingredients, dairy status, shelf life and storage instructions when available. Ingredient lists can stay empty for now. Lists marked business-confirmed will appear in the product's quick preview within the catalogue. Customers can call to discuss unknown details.
 5. In **Publishing**, choose Draft, Published, Hidden or Archived. Set availability, homepage featuring and national shipping eligibility. Seasonal items need their availability changed manually.
 6. Use **Preview item**, then **Save product**. The storefront updates after saving.
 
