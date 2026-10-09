@@ -1,4 +1,5 @@
 import './globals.css';
+import './modern.css';
 import { siteOrigin, isPublicSite } from '@/lib/site.mjs';
 
 export const metadata = {
@@ -11,5 +12,5 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return <html lang="en"><body>{children}</body></html>;
+  return <html lang="en" data-scroll-behavior="smooth"><body>{children}</body></html>;
 }
