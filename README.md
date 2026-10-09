@@ -38,6 +38,8 @@ The admin supports **one owner account**. Orders, payment arrangements, delivery
 
 ## GitHub and Vercel
 
+For GitHub browser upload, open the clean `github-upload` folder and drag its contents into the upload area: `src`, `public`, `supabase`, `tests` and the root files. Keep the folders intact. Upload the extracted files rather than the ZIP itself. The source uses ordinary folder names; `next.config.mjs` preserves the public page and API URLs through rewrites.
+
 1. Create a GitHub repository and upload this folder's contents. Include `src`, `public`, `supabase`, tests, `package.json`, `pnpm-lock.yaml`, configuration files and `.gitignore`. Exclude `node_modules`, `.next`, `.local` and real `.env` files.
 2. Import the repository into Vercel. Choose **Next.js**. If this folder is nested inside your repository, select it as the **Root Directory**; otherwise use the repository root.
 3. Use Node.js **24.x**, the detected install command, and build command **pnpm build**. See [Vercel package managers](https://vercel.com/docs/package-managers) and [Node.js versions](https://vercel.com/docs/functions/runtimes/node-js/node-js-versions).
