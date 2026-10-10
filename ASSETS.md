@@ -1,5 +1,11 @@
 # Artwork and brand assets
 
+## Editorial snack spreads
+
+Two additional assets were generated using the built-in image generation tool for the personal homepage design: `public/images/editorial/chai-table.webp` (chai, namkeen and atta biscuits) and `public/images/editorial/khakhra-stack.webp` (stacked khakhra and banana chips). Their full final prompts and source paths are saved in `public/images/editorial/prompts.json`. The selected PNG originals are preserved in the adjacent project's `artwork/editorial/` folder. The website uses compressed WebP delivery files, with visible illustration captions. No people, facility photographs, packaging or customer reviews were generated.
+
+The Indore-inspired architectural drawing and preparation icons are original code-native SVG graphics. They are decorative illustrations, not depictions of the actual facility or washing/drying method. The family panel uses a JSS illustration until the owner supplies a real portrait through Website settings.
+
 The supplied JSS logo is used with its original visual content. Food illustrations are generated concept artwork, labelled as illustrative in the shop. They do not depict the actual products, facility, washing/drying method or packaging.
 
 Generation mode: built-in image generation. The creative directions below are condensed descriptions of the prompts used.

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "chai-table",
+    "source": "/Users/admin/.codex/generated_images/01a11ffe-cc98-7102-aff2-5e31befa3df2/exec-4d5edefe-523f-41fc-893f-a1302847909a.png",
+    "prompt": "Use case: illustration-story. Asset type: wide editorial food illustration for Jain Shudh Snacks website, matching a warm cream, deep green and brick red visual identity. Primary request: an inviting Indian chai-time still life with a red ceramic cup of milky chai, a cream bowl of fine golden sev namkeen, four rustic round atta biscuits on a small plate, and a little folded unbleached linen. No people. Style: beautifully detailed painterly editorial illustration with realistic appetizing food textures and soft grain, not a photograph of actual business products. Composition: landscape 1536 by 1024, three-quarter tabletop view, food centered with margins for responsive crops, generous warm cream backdrop, no words. Lighting: soft afternoon daylight, welcoming and tasteful, muted forest green and brick red ceramics. Avoid: text, logos, packaging, certifications, onion or garlic props, excessive clutter, watermarks. The image will be labelled illustrative on the website.",
+    "mode": "built-in image generation",
+    "output": "public/images/editorial/chai-table.webp"
+  },
+  {
+    "id": "khakhra-stack",
+    "source": "/Users/admin/.codex/generated_images/01a11ffe-cc98-7102-aff2-5e31befa3df2/exec-1892b5b3-b97a-41a0-ac25-f9ee3f4042bc.png",
+    "prompt": "Use case: illustration-story. Asset type: editorial food illustration for Jain Shudh Snacks website. Primary request: a sculptural stack of thin round golden Indian khakhra with dark toasted spots, two slightly leaning against the stack, beside a low forest-green ceramic bowl of round golden banana chips. Tasteful cream cloth under the plate, a few crumbs, simple backdrop. Style: detailed painterly editorial illustration with realistic appetizing textures, softly tactile grain. This is illustrative concept food, not an actual business photograph. Composition: portrait 1024 by 1536, food centered with generous room above, three-quarter side view showing the thin layered edges, warm muted brick red backdrop and pale cream tabletop, soft natural daylight, understated and premium. No text, logos, packaging, people, religious claims, watermarks or invented labels. Clearly round khakhra, not fluffy pancakes.",
+    "mode": "built-in image generation",
+    "output": "public/images/editorial/khakhra-stack.webp"
+  }
+]

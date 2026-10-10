@@ -29,6 +29,16 @@ Use the availability switch next to an item in **Products**. Customers can still
 
 In **Website settings**, edit the order contact number, pickup address, hours and announcements. Changing the number updates the website's call links. Add genuine FSSAI/GST numbers when supplied and the business-approved instructions for product issues.
 
+## Personal introduction and customer comments
+
+The family section introduces **Savita Jain, founder**, and **Mayank Jain, her son and the order contact**. In **Website settings → The family behind JSS**, add a real portrait, edit the founder name, and enter approved introduction text in English and Hindi. A blank note uses the factual family introduction. The portrait accepts JPG, PNG or WebP files under 5 MB through the existing image storage, or a valid HTTPS image URL. Without a portrait, the site shows decorative JSS artwork.
+
+Under **Genuine customer comments**, add up to three real comments with each customer's display name and permission to publish. Enter both languages for bilingual display. Leave all fields blank to hide the section. Saving settings updates the homepage and story page.
+
+## Customer favourites
+
+Customers can tap a product's heart, then open **My favourites** from the header. The list remembers product choices in that browser and uses current catalogue prices and availability. Customers refer to it while calling Mayank. It does not submit an order or record quantities. Hidden, archived and removed items are omitted from the list.
+
 The overview shows published products, available products, active offers and drafts, alongside the order contact. Phone orders are not recorded in the website admin.
 
 Hosted catalogue storage and owner credentials are configured in hosting settings, outside this form. This version has one owner account; sign out when using a shared device.

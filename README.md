@@ -4,6 +4,8 @@ A custom Hindi/English catalogue and owner admin panel for Jain Shudh Snacks, In
 
 The design pairs the supplied red logo with buttery yellow, deep green, oversized typography and clearly labelled illustrative food artwork. The homepage includes an interactive category shelf, a snack mood selector, quick product previews and gentle scroll effects. Visitors can pause the moving marquee; reduced-motion preferences are respected.
 
+The latest design adds an Indore-inspired opening, two editorial snack spreads, a factual family introduction, interactive preparation steps and a saved favourites drawer. The mobile catalogue keeps category/search controls within reach, shows removable filter chips, and supports alphabetical or availability sorting. The owner can add a real founder portrait, bilingual personal note and genuine customer comments through Website settings.
+
 ## Open the preview
 
 Website: **http://127.0.0.1:3000**  
@@ -76,6 +78,6 @@ pnpm test
 pnpm build
 ```
 
-Seven tests cover signed sessions, origin checks, India-time offer boundaries, invalid discounts and persistent local catalogue saves. The production build passes. Browser checks cover desktop/mobile layouts, English/Hindi, catalogue search, keyboard category selection, quick previews, recommendations, the language popup and call-to-order links. Hosted Supabase storage still needs verification with the business's own account.
+Thirteen tests cover signed sessions, origin checks, India-time offer boundaries, invalid discounts, product artwork, saved favourites, personal-content validation and persistent local catalogue saves. The production build passes. Browser checks cover desktop/mobile layouts, English/Hindi, catalogue filters and sorting, favourites after refresh and removal, keyboard preparation steps, the remembered language popup and founder-name saving through the local admin. Hosted Supabase storage still needs verification with the business's own account.
 
 See **OWNER_GUIDE.md** for daily use and **ASSETS.md** for artwork provenance.
