@@ -1,5 +1,6 @@
 import './globals.css';
 import './modern.css';
+import './experience.css';
 import { siteOrigin, isPublicSite } from '@/lib/site.mjs';
 
 export const metadata = {

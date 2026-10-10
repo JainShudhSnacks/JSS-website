@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ArrowDown, ArrowUpRight, ArrowRight, Leaf, Wheat, Clock3, Phone, MapPin, Truck, Package, Sparkles, ChevronDown, Pause, Play } from 'lucide-react';
 import { useShop, FoodArt, ProductCard, Faq } from './Storefront';
+import { IndoreDrawing, SnackEditorial, FamilySection, PreparationJourney } from './HomeSections';
 
 const categoryCopy = {
   namkeen: ['The crunch that feels like home.', 'घर जैसा अपना कुरकुरा स्वाद।'],
@@ -51,7 +52,7 @@ export default function ModernHome() {
     root.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
     root.classList.add('motion-ready');
     return () => { observer.disconnect(); root.classList.remove('motion-ready'); };
-  }, []);
+  }, [lang, data.settings.customerReviews]);
 
   const tilt = event => {
     if (event.pointerType !== 'mouse' || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -62,11 +63,11 @@ export default function ModernHome() {
   const resetTilt = () => { stageRef.current.style.setProperty('--tilt-x', '0px'); stageRef.current.style.setProperty('--tilt-y', '0px'); };
 
   return <div className={`modern-home${motionPaused ? ' motion-paused' : ''}`} ref={pageRef}>
-    <section className="snack-hero">
+    <section className="snack-hero indore-hero"><IndoreDrawing/>
       <div className="section-width snack-hero-grid">
         <div className="snack-hero-copy">
           <div className="label-line"><span className="little-dot" />{tx('FROM OUR FAMILY, IN INDORE', 'इंदौर में, हमारे परिवार की ओर से')}</div>
-          <h1>{tx('Big on', 'भरपूर')}<br /><span className="crunch-word">{tx('crunch.', 'कुरकुराहट।')}<svg viewBox="0 0 450 22" preserveAspectRatio="none" aria-hidden="true"><path d="M3 15Q112-2 222 12T447 5" /></svg></span><br /><span className="hero-care-line">{tx('Made with care.', 'देखभाल के साथ।')}</span></h1>
+          <h1>{tx('A little', 'इंदौर का')}<br /><span className="crunch-word">{tx('Indore.', 'स्वाद।')}<svg viewBox="0 0 450 22" preserveAspectRatio="none" aria-hidden="true"><path d="M3 15Q112-2 222 12T447 5" /></svg></span><br /><span className="hero-care-line">{tx('Shuddh from the start.', 'शुद्ध तैयारी।')}</span></h1>
           <p className="snack-hero-description">{tx('Familiar flavours. Thoughtful preparation. Your everyday favourites, made in our own facility.', 'अपने स्वाद। तैयारी में पूरा ध्यान। आपके रोज़ के पसंदीदा उत्पाद, हमारी अपनी इकाई में तैयार।')}</p>
           <Link className="button primary hero-explore" href="/shop">{tx('Find your favourite', 'अपना पसंदीदा चुनें')}<span><ArrowUpRight size={21} /></span></Link>
           <a href="#snack-shelf" className="hero-scroll"><ArrowDown size={15} />{tx('Take a little look around', 'हमारी रेंज से मिलिए')}</a>
@@ -99,6 +100,8 @@ export default function ModernHome() {
       </div>
     </section>
 
+    <SnackEditorial/>
+
     <section className="snack-finder" data-reveal><div className="section-width">
       <div className="modern-section-heading"><div><div className="label-line"><Sparkles size={14} />{tx('PICK YOUR MOMENT', 'अपने पल के लिए चुनें')}</div><h2>{tx('What’s your', 'आज किस स्वाद का')}<br /><em>{tx('snack mood?', 'मन है?')}</em></h2></div><div className="finder-aside"><span className="handwritten">{tx('Go on. Pick one.', 'मनपसंद चुनिए।')}</span><p>{tx('A few ideas for wherever your day takes you.', 'आपके दिन के अलग-अलग पलों के लिए कुछ सुझाव।')}</p></div></div>
       <div className="moment-buttons" aria-label={tx('Choose a snack moment', 'अपने पल के लिए स्वाद चुनें')}>{moments.map(m => <button key={m.id} aria-pressed={moment === m.id} className={moment === m.id ? 'selected' : ''} onClick={() => setMoment(m.id)}>{tx(m.en, m.hi)}{moment === m.id ? <ArrowDown size={17} /> : <PlusMark />}</button>)}</div>
@@ -107,11 +110,9 @@ export default function ModernHome() {
       <Link className="button outline finder-all" href={currentMoment.national ? '/shop?national=1' : `/shop?category=${currentMoment.categories[0]}`}>{tx('Explore more of this mood', 'इस पसंद के और स्वाद देखें')}<ArrowUpRight size={18} /></Link>
     </div></section>
 
-    <section className="modern-care" data-reveal><div className="section-width care-grid"><div className="care-title"><div className="label-line"><Leaf size={15} />{tx('OUR NAME. OUR APPROACH.', 'हमारा नाम। हमारी सोच।')}</div><h2>{tx('Shuddh,', 'शुद्ध,')}<br />{tx('from the', 'पहले कदम')}<br /><em>{tx('very start.', 'से ही।')}</em></h2><p>{tx('It starts before the first bite. With attention to ingredients, preparation and the niyams that matter to you.', 'शुद्धता पहले कौर से पहले ही शुरू होती है। सामग्री, तैयारी और आपके नियमों पर ध्यान के साथ।')}</p><Link className="button care-button" href="/practices">{tx('Get to know our practices', 'हमारी प्रक्रिया जानें')}<ArrowUpRight size={18} /></Link><Star className="care-star" /></div><div className="care-accordion">{[
-        [Wheat, 'The first ingredient matters.', 'पहली सामग्री से ध्यान।', 'Ingredients are checked, washed and dried before preparation.', 'तैयारी से पहले सामग्री की जाँच, धुलाई और सुखाना।'],
-        [Leaf, 'Our facility. Our attention.', 'अपनी इकाई। अपना ध्यान।', 'We prepare in our own facility, using filtered water and dedicated utensils.', 'हम अपनी इकाई में छने हुए पानी और अलग बर्तनों के साथ तैयारी करते हैं।'],
-        [Clock3, 'Care, throughout the day.', 'दिन के समय, पूरी देखभाल।', 'Preparation takes place after sunrise and before sunset. Discuss your individual niyams with us before ordering.', 'तैयारी सूर्योदय के बाद और सूर्यास्त से पहले होती है। अपने व्यक्तिगत नियमों की पुष्टि ऑर्डर से पहले करें।'],
-      ].map(([Icon, en, hi, copy, copyHi], i) => <details key={en} open={i === 0}><summary><span className="care-number">0{i + 1}</span><Icon size={23} /><h3>{tx(en, hi)}</h3><ChevronDown size={20} /></summary><p>{tx(copy, copyHi)}</p></details>)}<div className="niyam-note"><span>शुद्ध स्वाद,<br />शुद्ध जीवन।</span><p>{tx('Your niyams are personal. Let’s talk about what suits you.', 'आपके नियम व्यक्तिगत हैं। आपकी ज़रूरत पर हमसे बात करें।')}</p></div></div></div></section>
+    <section className="modern-care" data-reveal><div className="section-width care-grid"><div className="care-title"><div className="label-line"><Leaf size={15} />{tx('OUR NAME. OUR APPROACH.', 'हमारा नाम। हमारी सोच।')}</div><h2>{tx('Shuddh,', 'शुद्ध,')}<br />{tx('from the', 'पहले कदम')}<br /><em>{tx('very start.', 'से ही।')}</em></h2><p>{tx('It starts before the first bite. With attention to ingredients, preparation and the niyams that matter to you.', 'शुद्धता पहले कौर से पहले ही शुरू होती है। सामग्री, तैयारी और आपके नियमों पर ध्यान के साथ।')}</p><Link className="button care-button" href="/practices">{tx('Get to know our practices', 'हमारी प्रक्रिया जानें')}<ArrowUpRight size={18} /></Link><Star className="care-star" /></div><PreparationJourney id="home-care"/></div></section>
+
+    <FamilySection/>
 
     <section className="section-width modern-delivery" data-reveal><div className="modern-section-heading"><div><div className="label-line">{tx('FROM INDORE, TO YOUR EVERYDAY', 'इंदौर से, आपके हर दिन के लिए')}</div><h2>{tx('Good food.', 'अच्छा स्वाद।')}<br /><em>{tx('Just a call away.', 'बस एक कॉल दूर।')}</em></h2></div><p>{tx('Choose your favourites. Call Mayank. We’ll confirm packs, availability and the best way to get them to you.', 'अपने पसंदीदा स्वाद चुनें और मयंक को कॉल करें। पैक, उपलब्धता और डिलीवरी की जानकारी साथ में तय करेंगे।')}</p></div><div className="delivery-paths">{[
         [MapPin, '01', 'Come say hello.', 'पिकअप के लिए आइए।', 'Pickup at Anjani Nagar, Indore.', 'अंजनी नगर, इंदौर से पिकअप।'],

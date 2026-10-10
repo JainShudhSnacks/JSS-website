@@ -3,7 +3,7 @@ import { randomBytes, randomUUID } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { initialise, records, record, save, publicSnapshot } from '@/lib/store.mjs';
-import { AppError, validateProduct } from '@/lib/domain.mjs';
+import { AppError, validateProduct, validateSettings } from '@/lib/domain.mjs';
 import { credentials, configured, cookieFor, session, requireAdmin, requireOrigin, throttle } from '@/lib/auth.mjs';
 
 export const runtime='nodejs';
@@ -43,9 +43,7 @@ async function handler(req){
     p.updatedAt=new Date().toISOString();await save('products',p.id,p);await audit(user,'save-product',p.id);return json({product:p});
    }
    if(route==='admin/settings'&&req.method==='POST'){
-    const input=await body(req),previous=await record('settings','business'),updated={...previous};
-    for(const key of ['phone','address','hours','fssai','gst','announcementEn','announcementHi','orderIssuePolicy'])if(key in input)updated[key]=String(input[key]).trim().slice(0,key==='orderIssuePolicy'?3000:500);
-    if(!/^\d{10}$/.test(updated.phone))throw new AppError('Use a ten-digit Indian contact number.');
+    const input=await body(req),previous=await record('settings','business'),updated=validateSettings(input,previous);
     await save('settings','business',updated);await audit(user,'save-settings','business');return json({settings:updated});
    }
    if(route==='admin/upload'&&req.method==='POST'){

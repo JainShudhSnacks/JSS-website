@@ -84,4 +84,5 @@ export const seedSettings = {
  name:'Jain Shudh Snacks', phone:'8982819979', address:'187 B Anjani Nagar, Airport Road, near Malwa Hospital, Indore',
  hours:'', fssai:'', gst:'', announcementEn:'Made in Indore. Prepared with care.', announcementHi:'इंदौर में तैयार। देखभाल के साथ।',
  orderIssuePolicy:'',
+ familyName:'Savita Jain', familyPortrait:'', familyNoteEn:'', familyNoteHi:'', customerReviews:[],
 };

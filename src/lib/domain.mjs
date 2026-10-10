@@ -38,3 +38,29 @@ export function validateProduct(input) {
     shelfLife:clean(input.shelfLife,300),storage:clean(input.storage,500),seasonal:!!input.seasonal,priceUnitConfirmed:!!input.priceUnitConfirmed,packs,position:Number(input.position)||0,
   };
 }
+
+export function validateSettings(input, previous) {
+  if (!input || typeof input !== 'object' || Array.isArray(input)) throw new AppError('Check the website settings.');
+  const updated = { ...previous };
+  const lengths = { phone: 20, address: 500, hours: 500, fssai: 500, gst: 500, announcementEn: 500, announcementHi: 500, orderIssuePolicy: 3000, familyName: 150, familyNoteEn: 2000, familyNoteHi: 2000 };
+  for (const [key, max] of Object.entries(lengths)) if (key in input) updated[key] = clean(input[key], max);
+  if (!/^\d{10}$/.test(updated.phone)) throw new AppError('Use a ten-digit Indian contact number.');
+  if ('familyPortrait' in input) {
+    const image = clean(input.familyPortrait, 600);
+    let allowed = !image || /^\/(images|api\/image)\/[a-zA-Z0-9/_ .-]+$/.test(image) && !image.includes('..');
+    if (image.startsWith('https://')) {
+      try { const url = new URL(image); allowed = url.protocol === 'https:' && !url.username && !url.password; } catch { allowed = false; }
+    }
+    if (!allowed) throw new AppError('Use an uploaded portrait or a valid HTTPS image URL.');
+    updated.familyPortrait = image;
+  }
+  if ('customerReviews' in input) {
+    if (!Array.isArray(input.customerReviews) || input.customerReviews.length > 3) throw new AppError('Add up to three customer comments.');
+    updated.customerReviews = input.customerReviews.map(review => {
+      if (!review || typeof review !== 'object' || Array.isArray(review)) throw new AppError('Check the customer comment.');
+      return { name: clean(review.name, 100), quoteEn: clean(review.quoteEn, 800), quoteHi: clean(review.quoteHi, 800) };
+    }).filter(review => review.name || review.quoteEn || review.quoteHi);
+    if (updated.customerReviews.some(review => !review.name || !(review.quoteEn || review.quoteHi))) throw new AppError('Add a customer name and their comment, or leave the whole comment blank.');
+  }
+  return updated;
+}
